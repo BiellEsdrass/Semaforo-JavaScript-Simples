@@ -18,7 +18,7 @@ body{
     .main-img img{
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 40%;
         transform: translate(-50%,-50%);
         height: 30rem;
     }
@@ -32,10 +32,10 @@ body{
 
     .main-btn{
         position: absolute;
-        top: 87%;
+        top: 75%;
         left: 50%;
         transform: translate(-50%,-50%);
-        width: 60%;
+        width: 60%; 
         display: flex;
         align-items: center;
         justify-content: center;
