@@ -1,0 +1,62 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .main-img img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30rem;
+}
+.main #lampadaAcesa {
+  display: none;
+}
+.main #lampadaQuebrada {
+  display: none;
+}
+.main .main-btn {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.main .main-btn input[type=button] {
+  width: 8rem;
+  height: 4rem;
+  text-transform: uppercase;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #1c1c1c;
+  color: white;
+  transition: all 0.5s;
+}
+.main .main-btn #red:hover {
+  background-color: red;
+}
+.main .main-btn #yellow:hover {
+  background-color: rgb(189, 189, 2);
+}
+.main .main-btn #green:hover {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
